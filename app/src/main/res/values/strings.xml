@@ -1,0 +1,100 @@
+<resources>
+    <string name="preference_file_key">shared_preferences</string>
+    <string name="random_id">random_id</string>
+    <string name="my_phone_number">my_phone</string>
+    <string name="phone_is_confirmed">phone_confirmed</string>
+
+    <string name="app_name">Pan de Alfacar</string>
+
+    <string name="title_activity_register">Verifica tu número</string>
+
+    <!-- Strings related to register phone -->
+    <string name="action_registrar">OK</string>
+    <string name="error_invalid_phone">El teléfono no es válido</string>
+    <string name="error_phone_length">El teléfono es muy corto o muy largo</string>
+    <string name="error_field_required">Es obligatorio rellenar este campo</string>
+    <string name="error_incorrect_phone">Número de móvil incorrecto o no se pudo recibir confirmación.\nVerifique que escribió correctamente su número o inténtelo de nuevo más tarde.</string>
+
+    <string name="text_explanation_need_phone_number">Necesitamos que nos confirmes tu número de
+    teléfono para poder contactar contigo en caso de que no podamos entregarte el pedido.</string>
+    <string name="text_explanation_need_phone_number2">Solamente
+    tendrás que introducirlo esta vez, para próximos pedidos este número de teléfono ya estará
+    verificado.</string>
+
+    <string name="verify_your_number_title">Verifique su número</string>
+    <string name="text_input_your_phone_number">Introduce tu número de teléfono</string>
+
+    <string name="action_place_order">Realizar pedido</string>
+    <string name="action_my_addresses">Mis direcciones</string>
+    <string name="title_activity_order">OrderActivity</string>
+
+    <string name="select_quantity_dialog_title">Elija cantidad</string>
+    <string name="select_quantity_dialog_positive_text">Aceptar</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="action_save">Guardar</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="shopping_cart_title">Cesta de la compra</string>
+    <string name="delete_item_cart">Eliminar</string>
+    <string name="total_cost">Total pedido:</string>
+    <string name="empty_cart">La cesta de la compra está vacía.\nVuelva para atrás y añada nuevos productos.</string>
+    <string name="addresses_title">Mis direcciones</string>
+    <string name="title_activity_address">AddressActivity</string>
+    <string name="caption_need_address">Para poder entregarle el pedido necesitamos su dirección.</string>
+    <string name="name">Nombre</string>
+    <string name="address">Dirección</string>
+    <string name="city">Municipio</string>
+    <string name="caption_contact_person">Persona de contacto</string>
+    <string name="caption_contact_colon">Contacto: </string>
+    <string name="postal_code">Código Postal</string>
+    <string name="button_add_to_cart">Añadir a la cesta</string>
+    <string name="please_wait">Por favor espere</string>
+    <string name="getting_products">Descargando productos</string>
+    <string name="couldnt_connect">No se pudo conectar, inténtelo de nuevo más tarde</string>
+    <string name="new_address_title">Nueva dirección</string>
+    <string name="error_incorrect_postalcode">El código postal debe pertenecer a Granada capital</string>
+    <string name="error_incorrect_postalcode_no_number">El código postal debe ser un número</string>
+    <string name="text_only_granada">Lo sentimos pero ahora mismo sólo hacemos repartos en Granada
+        capital pero pronto esperamos ampliar nuestra zona de reparto.</string>
+    <string name="OK">OK</string>
+    <string name="delivery_when">Este pedido se entregará:</string>
+    <string name="button_change_day">Cambiar día</string>
+    <string name="delivery_where">en la dirección:</string>
+    <string name="button_change_address">Cambiar dirección</string>
+    <string name="delivery_notes">Comentarios o notas que nos quieras dejar para este pedido:</string>
+    <string name="delivery_products_ordered">Los productos del pedido son:</string>
+    <string name="during_the_morning">en horario de mañana</string>
+    <string name="tomorrow">Mañana</string>
+    <string name="day_after_tomorrow">Pasado mañana</string>
+    <string name="edit">Editar</string>
+    <string name="empty_addresses">No hay direcciones añadidas. Por favor añada una nueva.</string>
+    <string name="confirm_delete_address">¿Está seguro que quiere borrar esta dirección?</string>
+    <string name="edit_address_title">Editando dirección</string>
+    <string name="confirm_discard_new_address">¿Está seguro de que no quiere guardar esta dirección?</string>
+    <string name="confirm_discard_changes">¿Está seguro de que no quiere guardar los cambios?</string>
+    <string name="you_cannot_select_current_day_for_delivery">No se puede seleccionar el día de hoy para entregar el pedido. No nos da tiempo a procesarlo.</string>
+    <string name="you_cannot_select_a_day_in_the_past_for_delivery">Los pedidos se pueden entregar a partir de mañana. Ha seleccionado una fecha en el pasado.</string>
+    <string name="tomorrow_there_is_no_delivery">Posiblemente mañana sea fiesta y no hacemos reparto.</string>
+    <string name="selected_day_is_a_bank_holiday">El día seleccionado parece que es fiesta, hemos seleccionado el siguiente en el que podemos hacer la entrega.</string>
+    <string name="confirm_order_title">Confirmar pedido</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="submitting_order">Enviando pedido</string>
+    <string name="problem_submitting_order_try_again">Se produjo un error al intentar enviar su pedido. Por favor inténtelo de nuevo más tarde.</string>
+    <string name="order_submitted_successfully">Pedido confirmado.</string>
+    <string name="action_my_orders">Mis pedidos</string>
+    <string name="select_address">Elija dirección</string>
+    <string name="no_address_added_yet">Aún no se ha añadido una dirección.</string>
+    <string name="orders_title">Mis pedidos pendientes</string>
+    <string name="empty_pending_orders">No hay pedidos pendientes de entrega.</string>
+    <string name="delivery_date_caption">Fecha de entrega</string>
+    <string name="getting_pending_orders">Obteniendo pedidos pendientes</string>
+    <string name="getting_addresses">Obteniendo direcciones</string>
+    <string name="no_internet_connection">No hay conexión a Internet. Active su Wifi o acceso a datos y pulse OK.</string>
+    <string name="update_needed_google_play_services">Este dispositivo necesita actualizar los servicios de Google para poder usar esta aplicación.\nPor favor instale o actualice la aplicación que va a aparecer.\n\nDespués puede volver a abrir esta aplicación.</string>
+    <string name="waiting_for_sms">Por favor espere hasta que reciba un SMS de confirmación.</string>
+
+
+</resources>

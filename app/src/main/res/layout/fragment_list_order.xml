@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="es.pablomellado.pandealfacar.orders_list.ListOrderFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list"
+        app:layoutManager="LinearLayoutManager"
+        tools:context="es.pablomellado.pandealfacar.orders_list.ListOrderFragment"
+        tools:listitem="@layout/fragment_order_item"
+        android:background="@color/registerBackground"/>
+
+    <TextView
+        android:id="@+id/empty_pending_orders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/empty_pending_orders"
+        android:visibility="gone" />
+
+</FrameLayout>
